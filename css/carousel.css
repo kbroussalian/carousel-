@@ -1,0 +1,33 @@
+.frame, .slide {
+  width: 800px;
+  height: 600px;
+}
+
+.frame {
+  overflow: hidden;
+  position: relative;
+}
+
+.tray {
+  position: relative;
+}
+
+.slide {
+  float: left;  
+}
+
+.prev, .next {
+  position: absolute;
+  top: 40%;
+  margin: 5px; 
+  color: black;
+  text-shadow: 2px 2px 2px white, -2px -2px 2px white;
+}
+
+.prev { left: 0; }
+.next {right: 0; }
+
+img, table, video. iframe {
+  width: 100%;
+  max-width: 100%;
+}
